@@ -1,17 +1,17 @@
-//³ÌĞò¿â¿ª·¢ÈËÔ±
+//ç¨‹åºåº“å¼€å‘äººå‘˜
 class Library{
 public:
-	//ÎÈ¶¨ template method
+	//ç¨³å®š template method
     void Run(){
         
         Step1();
 
-        if (Step2()) { //Ö§³Ö±ä»¯ ==> Ğéº¯ÊıµÄ¶àÌ¬µ÷ÓÃ
+        if (Step2()) { //æ”¯æŒå˜åŒ– ==> è™šå‡½æ•°çš„å¤šæ€å˜åŒ–
             Step3(); 
         }
 
         for (int i = 0; i < 4; i++){
-            Step4(); //Ö§³Ö±ä»¯ ==> Ğéº¯ÊıµÄ¶àÌ¬µ÷ÓÃ
+            Step4(); //æ”¯æŒå˜åŒ– ==> è™šå‡½æ•°çš„å¤šæ€å˜åŒ–
         }
 
         Step5();
@@ -21,16 +21,16 @@ public:
 
 protected:
 	
-	void Step1() { //ÎÈ¶¨
+	void Step1() { //ç¨³å®š
         //.....
     }
-	void Step3() {//ÎÈ¶¨
+	void Step3() {//ç¨³å®š
         //.....
     }
-	void Step5() { //ÎÈ¶¨
+	void Step5() { //ç¨³å®š
 		//.....
 	}
 
-	virtual bool Step2() = 0;//±ä»¯
-    virtual void Step4() =0; //±ä»¯
+	virtual bool Step2() = 0;//å˜åŒ–
+    virtual void Step4() =0; //å˜åŒ–
 };

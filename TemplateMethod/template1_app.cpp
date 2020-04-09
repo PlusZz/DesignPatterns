@@ -1,4 +1,3 @@
-//应用程序开发人员
 class Application{
 public:
 	bool Step2(){
