@@ -2,7 +2,7 @@ class FileSplitter
 {
 	string m_filePath;
 	int m_fileNumber;
-	ProgressBar* m_progressBar;
+	ProgressBar* m_progressBar; // é€šçŸ¥
 
 public:
 	FileSplitter(const string& filePath, int fileNumber, ProgressBar* progressBar) :
@@ -14,14 +14,14 @@ public:
 
 	void split(){
 
-		//1.¶ÁÈ¡´óÎÄ¼ş
+		//1.è¯»å–å¤§æ–‡ä»¶
 
-		//2.·ÖÅú´ÎÏòĞ¡ÎÄ¼şÖĞĞ´Èë
+		//2.åˆ†æ‰¹æ¬¡å‘å°æ–‡ä»¶å†™å…¥
 		for (int i = 0; i < m_fileNumber; i++){
 			//...
 			float progressValue = m_fileNumber;
 			progressValue = (i + 1) / progressValue;
-			m_progressBar->setValue(progressValue);
+			m_progressBar->setValue(progressValue); // æ›´æ–°è¿›åº¦æ¡
 		}
 
 	}
