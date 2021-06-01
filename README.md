@@ -1,5 +1,6 @@
 # DesignPatterns
 ## ⌨ 学习设计模式时的一些样例代码 和 ppt课件
+博客 → [23种设计模式](https://www.cnblogs.com/coderzjz/p/12688333.html)
 
 ## 什么是设计模式
 
